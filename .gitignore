@@ -1,2 +1,7 @@
 *.env
+<<<<<<< HEAD
 venv
+=======
+jac-env/
+__pycache__/
+>>>>>>> 4dcbb1b114548e27168ed0b21c4813545b3299ac
