@@ -1,0 +1,253 @@
+
+================================================================================
+INTERNAL EMAIL ARCHIVE — SUNRISE FAMILY MEDICINE GROUP
+EXTRACTED BY RELATOR: Sarah Okonkwo, NP (Employee ID: EMP-0047)
+DATE RANGE: March 2020 – October 2023
+NOTE: These emails were preserved from the clinic's Microsoft Exchange server
+      prior to relator's termination on November 14, 2023.
+================================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+EMAIL #001
+────────────────────────────────────────────────────────────────────────────────
+FROM:    Dr. Victor Mendez <v.mendez@sunrisefmg.com>
+TO:      All Staff <all@sunrisefmg.com>
+CC:      Office Manager <r.hassan@sunrisefmg.com>
+DATE:    March 12, 2020 — 8:47 AM
+SUBJECT: Billing Update — New Practice Policy
+
+Team,
+
+Effective immediately, all patient encounters are to be billed at the 99215
+(Level 5) complexity level unless there is a specific, documented clinical
+reason not to. Linda and Marcus — please make sure your NPs understand this.
+
+We are leaving significant revenue on the table. Our per-visit reimbursement
+is 40% below the Tampa MSA average for practices our size. This needs to change.
+
+Going forward:
+- Default code: 99215
+- Document "high complexity" in the assessment field
+- Use modifier -25 on all visits where we run any lab work
+
+Rania will be auditing charts weekly to verify compliance. Providers who
+consistently bill below 99215 will be reviewed.
+
+Victor Mendez, MD
+Medical Director, Sunrise Family Medicine Group
+4400 W Kennedy Blvd Suite 200 | Tampa FL 33609
+
+────────────────────────────────────────────────────────────────────────────────
+EMAIL #002
+────────────────────────────────────────────────────────────────────────────────
+FROM:    Rania Hassan <r.hassan@sunrisefmg.com> [Office Manager]
+TO:      Sarah Okonkwo <s.okonkwo@sunrisefmg.com>
+DATE:    April 3, 2020 — 2:15 PM
+SUBJECT: RE: Question about billing codes
+
+Sarah,
+
+I got your message. I understand your concern but Dr. Mendez is very clear on
+this. ALL visits get 99215. It doesn't matter if the patient came in for a
+blood pressure check or a cold. We document "management of complex chronic
+conditions" and that satisfies the requirement.
+
+You don't need to actually have a complex patient. You just need to document
+the right language. That's how everyone does it.
+
+Please stop asking and just follow the policy.
+
+Rania Hassan
+Office Manager
+
+────────────────────────────────────────────────────────────────────────────────
+EMAIL #003
+────────────────────────────────────────────────────────────────────────────────
+FROM:    Dr. Victor Mendez <v.mendez@sunrisefmg.com>
+TO:      Dr. Linda Cho <l.cho@sunrisefmg.com>
+DATE:    June 18, 2020 — 6:32 PM
+SUBJECT: Q2 Revenue — Need to talk
+
+Linda,
+
+We're at $487K for Q2. Budget was $620K. The shortfall is entirely because
+James and Maria are still billing 99213 on half their charts. I looked at the
+claims — they're treating simple hypertension visits as low complexity. That's
+just money we're throwing away.
+
+Every one of those visits should be 99215. HTN management IS complex. We just
+need to say so in the note. It takes 10 seconds to add "complex chronic disease
+management" to the assessment.
+
+I need you to talk to them. This isn't optional.
+
+Victor
+
+────────────────────────────────────────────────────────────────────────────────
+EMAIL #004
+────────────────────────────────────────────────────────────────────────────────
+FROM:    Dr. Marcus Webb <m.webb@sunrisefmg.com>
+TO:      Dr. Victor Mendez <v.mendez@sunrisefmg.com>
+DATE:    September 7, 2020 — 10:08 AM
+SUBJECT: RE: Monthly billing audit
+
+Victor,
+
+Pulled my numbers. I'm at 94% 99215 for August. The 6% that aren't are all
+pediatric patients because the parents get suspicious if the EOB shows "high
+complexity" for a well-child visit. I can try to push that up but I think
+we're at the ceiling for adult patients.
+
+Also — one patient called the front desk asking why her bill says "high
+complexity" when she came in for a flu shot. Rania handled it. Told her it was
+a "billing category" not a medical judgment. She seemed to accept that.
+
+Marcus
+
+────────────────────────────────────────────────────────────────────────────────
+EMAIL #005
+────────────────────────────────────────────────────────────────────────────────
+FROM:    Sarah Okonkwo <s.okonkwo@sunrisefmg.com>
+TO:      Dr. Victor Mendez <v.mendez@sunrisefmg.com>
+DATE:    January 14, 2021 — 9:22 AM
+SUBJECT: Billing Concern — Formal Notice
+
+Dr. Mendez,
+
+I am writing to formally document my concerns about our current billing
+practices.
+
+I reviewed 40 of my charts from December. 38 were billed at 99215. Of those:
+- 12 were routine wellness visits (Z00.00) — these CANNOT be 99215
+- 9 were upper respiratory infections — these do not meet medical complexity
+- 8 were chronic disease follow-ups with no change in management
+- Only 9 had legitimate clinical complexity
+
+I am concerned that this constitutes systematic upcoding of Medicare claims.
+I spoke with a compliance consultant last week who confirmed my concern.
+
+I am asking that we return to medically appropriate coding. I am not comfortable
+signing off on claims that I believe are fraudulent.
+
+Sarah Okonkwo, NP
+
+────────────────────────────────────────────────────────────────────────────────
+EMAIL #006
+────────────────────────────────────────────────────────────────────────────────
+FROM:    Dr. Victor Mendez <v.mendez@sunrisefmg.com>
+TO:      Sarah Okonkwo <s.okonkwo@sunrisefmg.com>
+DATE:    January 14, 2021 — 11:55 AM
+SUBJECT: RE: Billing Concern — Formal Notice
+
+Sarah,
+
+I've discussed your concerns with our billing consultant and we are confident
+in our coding practices. We document complexity and that is what CMS audits.
+
+If you are uncomfortable with practice policy, we should discuss whether this
+is the right fit for you. Your contract renewal is in March.
+
+Victor Mendez MD
+
+────────────────────────────────────────────────────────────────────────────────
+EMAIL #007
+────────────────────────────────────────────────────────────────────────────────
+FROM:    Rania Hassan <r.hassan@sunrisefmg.com>
+TO:      All Clinical Staff <clinical@sunrisefmg.com>
+DATE:    March 3, 2021 — 8:00 AM
+SUBJECT: Lab Add-On Reminder
+
+Team —
+
+Quick reminder: whenever you order ANY lab work (even just a UA or CBC),
+make sure billing adds the appropriate add-on code with modifier -59.
+
+This means:
+- Urinalysis ordered → add 81003-59
+- CBC ordered → add 85025-59  
+- CMP ordered → add 80053-59
+- EKG done → add 93000-59
+
+The modifier 59 shows these are distinct services. This is standard practice.
+Do NOT forget this — we are leaving $18-22 per visit on the table when labs
+aren't coded separately.
+
+Rania
+
+────────────────────────────────────────────────────────────────────────────────
+EMAIL #008
+────────────────────────────────────────────────────────────────────────────────
+FROM:    James Tran <j.tran@sunrisefmg.com> [NP]
+TO:      Sarah Okonkwo <s.okonkwo@sunrisefmg.com>
+DATE:    May 19, 2021 — 7:44 PM
+SUBJECT: Between us
+
+Sarah,
+
+I know you've been having issues with the billing thing. Between us — I've been
+thinking the same. Yesterday I billed 99215 on a patient who came in for a
+wart removal. There is no universe where that's high complexity.
+
+But you saw what happened when you pushed back. I can't lose this job right now.
+Maria feels the same way. We just do what we're told.
+
+I hope you figure something out. Be careful.
+
+James
+
+────────────────────────────────────────────────────────────────────────────────
+EMAIL #009
+────────────────────────────────────────────────────────────────────────────────
+FROM:    Dr. Victor Mendez <v.mendez@sunrisefmg.com>
+TO:      Rania Hassan <r.hassan@sunrisefmg.com>
+DATE:    August 2, 2022 — 3:11 PM
+SUBJECT: FWD: CMS PROBE AUDIT NOTICE
+
+Rania —
+
+See below. CMS is doing a probe audit on our 99215 claims for Q1 2022.
+They want 5 charts.
+
+Pull the BEST 5 charts — the ones with the most documentation. Make sure the
+assessment fields are filled in properly before you send. You know what I mean.
+
+Do NOT send the flu shot visits or the wellness-only charts.
+
+Victor
+
+--- Forwarded Message ---
+FROM: cms-provideraudit@cms.hhs.gov
+DATE: August 1, 2022
+SUBJECT: Medicare Administrative Contractor Probe Audit — NPI 1234567890
+...
+
+────────────────────────────────────────────────────────────────────────────────
+EMAIL #010
+────────────────────────────────────────────────────────────────────────────────
+FROM:    Sarah Okonkwo <s.okonkwo@sunrisefmg.com>
+TO:      [PERSONAL EMAIL REDACTED]
+DATE:    October 22, 2023 — 11:48 PM
+SUBJECT: What I need to bring to the attorney
+
+[DRAFT — NEVER SENT]
+
+Things to bring:
+1. The March 2020 all-staff email ("default code: 99215")
+2. Rania's email about modifier 59 and labs
+3. Victor's email about the probe audit ("pick the best charts")
+4. My own January 2021 formal complaint letter
+5. Billing export — I downloaded 6 months of claim data before today
+6. The EHR audit logs showing chart edits AFTER billing was submitted
+7. James Tran's email to me (May 2021)
+8. Patient complaint call log from front desk (the lady with the EOB)
+
+Do NOT forget: Victor knew about the OIG settlement at his last practice
+(Palm Bay Medical) — I found an old Florida Health News article. He left
+Palm Bay in 2018, six months before they settled a Medicare fraud case for
+$3.1M. Same pattern.
+
+Call the attorney Monday.
+
+================================================================================
+END OF EMAIL ARCHIVE
+================================================================================

@@ -1,0 +1,134 @@
+
+================================================================================
+SUNRISE FAMILY MEDICINE GROUP — SELECTED PATIENT ENCOUNTER RECORDS
+De-identified per HIPAA Safe Harbor. Produced by Relator Sarah Okonkwo NP.
+================================================================================
+
+RECORD #1
+Patient ID:     PAT0023
+Date of Service: 2021-06-14
+Provider:       Sarah Okonkwo, NP
+Primary Dx:     Z00.00 (Encounter for general adult medical examination)
+Visit Type:     Annual Wellness Exam
+Billed Code:    99215 (Level 5 E&M, High Complexity)
+Paid by CMS:    $162.75
+
+CLINICAL NOTE (from EHR):
+HPI: Patient presents for annual wellness exam. No acute complaints.
+     Reports feeling well. Last labs normal 6 months ago.
+ROS: Negative for all systems reviewed.
+Assessment: Complex chronic disease management, multiple comorbidities.
+Plan: Continue current medications. Return in 12 months.
+
+RELATOR ANNOTATION:
+This was a well visit. No chronic conditions were managed. No medications
+were changed. The "complex chronic disease management" language in the
+assessment was NOT in my original note. This patient has no complex chronic
+conditions. Appropriate code: 99213 ($77.62). Overbilled by $85.13.
+
+──────────────────────────────────────────────────────────────────────────────
+
+RECORD #2
+Patient ID:     PAT0089
+Date of Service: 2021-09-03
+Provider:       James Tran, NP
+Primary Dx:     J06.9 (Acute upper respiratory infection, unspecified)
+Visit Type:     Sick Visit
+Billed Code:    99215 (Level 5 E&M, High Complexity) + 81003-59 (UA)
+Paid by CMS:    $166.51
+
+CLINICAL NOTE (from EHR):
+HPI: Patient presents with 3 days of congestion, sore throat, mild cough.
+     No fever. No shortness of breath.
+Assessment: URI. Complex management, high decision making required.
+Plan: Symptomatic treatment. Rest. OTC antihistamine. Return if worsens.
+UA ordered: routine (patient had no urinary complaints)
+
+RELATOR ANNOTATION:
+URI is not a high-complexity condition. This is a straightforward sick visit.
+The urinalysis was ordered per office policy to add the 81003 code — patient
+had NO urinary symptoms and the UA was normal. This is phantom add-on billing.
+Appropriate code: 99213 ($77.62), no UA. Overbilled by $88.89.
+
+──────────────────────────────────────────────────────────────────────────────
+
+RECORD #3
+Patient ID:     PAT0156
+Date of Service: 2022-02-17
+Provider:       Dr. Marcus Webb, MD
+Primary Dx:     Z23 (Encounter for immunization)
+Visit Type:     Flu Shot Administration Only
+Billed Code:    99215 (Level 5 E&M, High Complexity) + 93000-59 (EKG)
+Paid by CMS:    $191.86
+
+CLINICAL NOTE (from EHR):
+HPI: Patient presents for influenza vaccination.
+Assessment: Annual wellness with management of multiple complex chronic
+            conditions, preventive care integration.
+Plan: Flu vaccine administered. EKG performed (preventive).
+EKG result: Normal sinus rhythm.
+
+RELATOR ANNOTATION:
+THIS WAS A FLU SHOT. Patient has NO complex chronic conditions in their chart.
+The EKG was not ordered by a physician — it was added automatically per office
+policy on all Medicare patients over 65. The chart was edited 2 weeks after
+billing (see ehr_audit_log.csv, CLM100788). This patient called our front desk
+to complain about the bill. Rania told her it was "just a billing category."
+Appropriate code: Administration code only. Overbilled by $162.75+.
+
+──────────────────────────────────────────────────────────────────────────────
+
+RECORD #4
+Patient ID:     PAT0234
+Date of Service: 2022-07-29
+Provider:       Dr. Linda Cho, DO
+Primary Dx:     I10 (Essential hypertension)
+Visit Type:     Follow-up — Blood Pressure Check
+Billed Code:    99215 (Level 5 E&M) + 80053-59 (CMP) + 85025-59 (CBC)
+Paid by CMS:    $184.58
+
+CLINICAL NOTE (from EHR):
+HPI: Patient returns for BP follow-up. BP today: 128/76. Controlled on
+     lisinopril 10mg. No side effects. No new complaints.
+Assessment: High complexity: HTN, DM2, management of multiple chronic
+            conditions.
+Plan: Continue lisinopril. Labs ordered (CMP + CBC routine).
+
+RELATOR ANNOTATION:
+Patient's BP is CONTROLLED. DM2 is managed by an endocrinologist — we are NOT
+managing their diabetes. The "multiple chronic conditions" language is copied
+from a template added by Dr. Mendez to all HTN follow-up notes. The CMP and
+CBC were ordered per standing policy for all quarterly visits — not for a
+clinical indication this visit. Appropriate code: 99213 + lab interpretation
+only if physician reviewed. Overbilled: ~$106.42 on the E&M alone.
+
+──────────────────────────────────────────────────────────────────────────────
+
+RECORD #5
+Patient ID:     PAT0412
+Date of Service: 2023-05-11
+Provider:       Sarah Okonkwo, NP
+Primary Dx:     B07.9 (Wart, unspecified)
+Visit Type:     Wart removal (cryotherapy)
+Billed Code:    99215 (Level 5 E&M) + 17110 (wart removal)
+Paid by CMS:    $221.90
+
+CLINICAL NOTE (from EHR):
+HPI: Patient presents for removal of plantar wart, right foot.
+Assessment: Complex dermatological management. High medical decision making.
+Plan: Cryotherapy applied x1. Return in 3 weeks.
+
+RELATOR ANNOTATION:
+I refused to sign this chart as billed. Rania resubmitted it under my NPI
+without my knowledge. Wart removal is a MINOR procedure. The E&M is NOT
+separately billable when a minor procedure is performed on the same day
+(global surgical package rules). The 99215 should not be billed separately.
+I reported this specific claim to Dr. Mendez in writing. See Email #005.
+
+================================================================================
+END OF PATIENT RECORDS
+RELATOR CERTIFICATION: "I certify that the above records are true and accurate
+copies of EHR records I personally observed or documented during my employment
+at Sunrise Family Medicine Group from March 2019 through November 2023."
+— Sarah Okonkwo, NP, Employee ID EMP-0047
+================================================================================

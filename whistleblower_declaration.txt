@@ -1,0 +1,143 @@
+
+================================================================================
+WHISTLEBLOWER DECLARATION AND DISCLOSURE STATEMENT
+In the Matter of: United States ex rel. Okonkwo v. Sunrise Family Medicine Group
+Relator: Sarah Okonkwo, NP
+Prepared for Submission Under 31 U.S.C. § 3730(b)(2)
+================================================================================
+
+I, Sarah Okonkwo, a Nurse Practitioner licensed in the State of Florida
+(License No. NP-FL-88421), hereby declare under penalty of perjury that the
+following is true and correct to the best of my knowledge and belief:
+
+SECTION 1 — MY BACKGROUND
+
+1.1  I was employed at Sunrise Family Medicine Group ("Sunrise" or "the Clinic")
+     from March 4, 2019 through my termination on November 14, 2023.
+     My employee ID was EMP-0047. My NPI is 8899001122.
+
+1.2  My role was Nurse Practitioner — I saw approximately 18-22 patients per
+     day. I had full access to the EHR system (AthenaHealth) and reviewed my
+     own billing submissions daily.
+
+1.3  I have no financial relationship with any competitor of Sunrise Family
+     Medicine Group. I am disclosing this information because I believe a
+     federal crime is being committed using Medicare funds.
+
+SECTION 2 — THE FRAUDULENT SCHEME
+
+2.1  Beginning approximately March 2020, Dr. Victor Mendez, Medical Director
+     and majority owner of Sunrise Family Medicine Group, issued a verbal and
+     then written directive requiring all providers to bill all patient
+     encounters at CPT code 99215 (Level 5, High Complexity E&M) regardless
+     of the actual complexity of the visit.
+
+2.2  I personally witnessed this directive issued at a staff meeting on
+     approximately March 10, 2020. A follow-up email was sent to all staff
+     on March 12, 2020 (preserved and attached as Exhibit A).
+
+2.3  The Medicare billing rules for CPT 99215 require that the medical
+     decision making involve: (a) multiple diagnoses or management options,
+     (b) extensive amount and/or complexity of data reviewed, AND (c) high
+     risk of complications. The vast majority of visits at Sunrise did not
+     meet these criteria.
+
+2.4  I reviewed a sample of 40 of my own claims from December 2020. Of those:
+     — 12 were routine wellness visits (ICD-10: Z00.00) which cannot lawfully
+       be billed as 99215
+     — 9 were upper respiratory infections with straightforward management
+     — 8 were stable chronic disease follow-ups with no change in treatment
+     — Only 9 had legitimate clinical complexity
+
+2.5  I formally reported my concerns to Dr. Mendez in writing on January 14,
+     2021 (attached as Exhibit B). He responded by threatening my employment
+     and my March 2021 contract renewal (attached as Exhibit C).
+
+2.6  I was terminated on November 14, 2023. I believe my termination was
+     directly related to my continued refusal to sign off on fraudulently
+     upcoded claims, particularly the wart removal claim (CLM101834) that
+     Rania Hassan resubmitted under my NPI without my authorization.
+
+SECTION 3 — THE UNBUNDLING SCHEME
+
+3.1  In addition to upcoding, beginning approximately March 2021, Office
+     Manager Rania Hassan issued a written directive (attached as Exhibit D)
+     requiring providers to add lab and diagnostic codes (81003, 85025, 80053,
+     93000) to virtually all Medicare patient visits using Modifier -59.
+
+3.2  Modifier -59 is used to indicate a service is distinct from another
+     service billed on the same day. The Clinic used it routinely to
+     separately bill for tests that were ordered not for a clinical indication
+     but as a means to increase reimbursement.
+
+3.3  On numerous occasions, I observed urinalysis (81003) being billed for
+     patients who had no urinary complaints and for whom I had not ordered
+     the test. The orders were added by billing staff.
+
+SECTION 4 — EVIDENCE TAMPERING
+
+4.1  I observed on multiple occasions that patient charts were edited AFTER
+     the claim had been submitted to and paid by Medicare. These edits
+     consisted of adding language about "complex chronic disease management"
+     and "high medical decision making" that was not in the original note.
+
+4.2  I was able to recover the original note text for 12 claims using the
+     EHR's version history feature before my access was revoked. These
+     before-and-after versions are attached as Exhibit E (ehr_audit_log.csv).
+
+4.3  I observed that at least some edits were made by user "rmhassan" —
+     Rania Hassan, the Office Manager — who has no clinical training and
+     is not a licensed healthcare provider.
+
+SECTION 5 — PRIOR KNOWLEDGE OF DEFENDANT
+
+5.1  I am aware from a 2018 Florida Health News article (attached as Exhibit F)
+     that Dr. Victor Mendez was previously employed at Palm Bay Medical Center
+     in Brevard County, Florida. Palm Bay Medical settled a Medicare fraud
+     case for $3.1 million in early 2019, six months after Dr. Mendez
+     departed. The settlement involved the same pattern of systematic
+     upcoding of E&M services.
+
+5.2  This prior history is relevant to the Scienter element — Dr. Mendez
+     was present during a prior fraud investigation involving identical
+     billing patterns. He cannot credibly claim ignorance of the rules.
+
+SECTION 6 — ESTIMATED GOVERNMENT LOSS
+
+6.1  Based on my review of billing data I preserved prior to termination,
+     Sunrise Family Medicine Group submitted approximately 12,847 Medicare
+     claims between January 2021 and December 2023.
+
+6.2  Approximately 91% of these claims (approximately 11,690 claims) were
+     billed at CPT 99215. Based on the national Family Medicine benchmark
+     (14.1% of visits should be 99215), approximately 9,906 of these were
+     fraudulently upcoded.
+
+6.3  The differential between CPT 99215 ($203.44) and CPT 99213 ($97.02)
+     is $106.42. After Medicare's 80% payment rate, the overpayment per
+     claim is approximately $85.14.
+
+6.4  Estimated base overpayment: 9,906 × $85.14 = $843,516
+     Treble damages under 31 U.S.C. § 3729: $843,516 × 3 = $2,530,548
+     Civil penalties: $13,946 to $27,894 × 9,906 claims = $138.1M to $276.3M
+
+6.5  This does not include the unbundled lab and diagnostic codes, which I
+     estimate represent an additional $350,000–$600,000 in false claims.
+
+I declare under penalty of perjury that the foregoing is true and correct.
+
+Executed this ___ day of _________, 2024.
+
+_________________________________
+Sarah Okonkwo, NP
+Relator / Qui Tam Plaintiff
+
+================================================================================
+EXHIBITS REFERENCED:
+A — Email from Dr. Mendez to All Staff, March 12, 2020 (internal_emails.txt)
+B — Relator's formal written complaint, January 14, 2021 (internal_emails.txt)
+C — Dr. Mendez's retaliatory response, January 14, 2021 (internal_emails.txt)
+D — Rania Hassan lab add-on memo, March 3, 2021 (internal_emails.txt)
+E — EHR audit log — retroactive chart edits (ehr_audit_log.csv)
+F — Florida Health News article re: Palm Bay Medical (news_clipping.txt)
+================================================================================
