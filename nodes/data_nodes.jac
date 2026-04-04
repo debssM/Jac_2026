@@ -59,4 +59,3 @@ node CaseMemoNode {
     has gap_analysis: list[str];
     has overall_strength: str;  # "Strong", "Moderate", "Weak"
 }
-

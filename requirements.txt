@@ -1,0 +1,5 @@
+jaclang
+streamlit
+requests
+pandas
+reportlab
