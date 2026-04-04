@@ -1,6 +1,0 @@
-cpt_code,code_description,national_fm_pct,sunrise_pct,national_avg_payment,sunrise_avg_payment,deviation_sigma
-99211,Level 1 E&M — minimal,4.1,1.2,24.68,24.68,-1.3
-99212,Level 2 E&M — straightforward,8.3,2.1,55.36,55.36,-2.1
-99213,Level 3 E&M — low complexity,34.7,4.3,97.02,97.02,-8.9
-99214,Level 4 E&M — moderate complexity,38.8,2.1,144.05,144.05,-11.2
-99215,Level 5 E&M — high complexity,14.1,91.3,203.44,203.44,23.4
