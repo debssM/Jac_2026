@@ -152,6 +152,7 @@ walker reset_case {
 # Runs once when jac start main.jac is executed
 with entry {
     root spawn setup_graph();
+<<<<<<< HEAD
     print("✅ QuiTam Copilot API ready!");
     print("Walkers available:");
     print("  POST /walker/analyze_case");
@@ -160,3 +161,6 @@ with entry {
     print("  POST /walker/get_timeline");
     print("  POST /walker/reset_case");
 }
+=======
+}
+>>>>>>> 04cfc0aec3fc60c2f4c3551af809e0ed2beb4327
