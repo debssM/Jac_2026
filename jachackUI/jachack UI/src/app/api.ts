@@ -1,5 +1,7 @@
+const BASE_URL = import.meta.env.VITE_API_URL ?? '';
+
 async function jacPost(walker: string, body: object = {}) {
-  const res = await fetch(`/walker/${walker}`, {
+  const res = await fetch(`${BASE_URL}/walker/${walker}`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(body),
