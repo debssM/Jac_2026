@@ -66,5 +66,5 @@ node CaseMemoNode {
     has per_claim_penalty: float = 0.0;
     has total_exposure: float = 0.0;
     has gap_analysis: list = [];
-    has overall_strength: str = "";
+    has overall_strength: float = 0.0;
 }

@@ -60,7 +60,7 @@ export function AnalysisScreen() {
       try {
         result = await analyzeCase(files);
       } catch (err: any) {
-        throw new Error(`Backend unreachable. Make sure 'jac serve maintest.jac --port 8000' is running.\n${err.message}`);
+        throw new Error(`Backend unreachable. Make sure 'python server.py' is running on port 8000.\n${err.message}`);
       }
 
       setAgentStatus('1', 'done');
@@ -82,9 +82,13 @@ export function AnalysisScreen() {
       // Step 5 — Store everything
       setAgentStatus('5', 'running');
 
-      if (result) setAnalysisResult(result);
+      if (!result) {
+        throw new Error('Analysis returned no data. Check that ANTHROPIC_API_KEY is set and the server is running.');
+      }
+
+      setAnalysisResult(result);
       if (scoresData) setScores(scoresData);
-      if (evidenceData?.length) setEvidence(evidenceData);
+      setEvidence(evidenceData ?? []);
       if (timelineData) setTimeline(timelineData);
 
       setAgentStatus('5', 'done');

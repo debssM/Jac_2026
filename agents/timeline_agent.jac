@@ -7,7 +7,7 @@ import from nodes.data_nodes {
 }
 import from helpers { parse_json }
 
-glob llm = Model(model_name="claude-sonnet-4-20250514");
+glob llm = Model(model_name="claude-haiku-4-5-20251001");
 
 node TimelineAgent {
     has timeline_complete: bool = False;
