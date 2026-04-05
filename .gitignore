@@ -2,3 +2,4 @@
 venv
 jac-env/
 __pycache__/
+*.jac/
