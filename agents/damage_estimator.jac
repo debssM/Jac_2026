@@ -4,11 +4,15 @@ import from byllm.llm { Model }
 import from nodes.data_nodes {
     EvidenceNode,
     TimelineNode,
+    FalsityNode,
+    ScientorNode,
+    MaterialityNode,
+    CausationNode,
     CaseMemoNode
 }
 import from helpers { parse_json, calculate_damages }
 
-glob llm = Model(model_name="claude-sonnet-4-20250514");
+glob llm = Model(model_name="claude-haiku-4-5-20251001");
 
 node DamageEstimatorAgent {
     has damage_complete: bool = False;
@@ -76,35 +80,37 @@ node DamageEstimatorAgent {
 
         damage_data = parse_json(raw);
 
-        memo = CaseMemoNode();
-        memo.defendant = "Unknown";
-        memo.total_false_claims = 0;
-        memo.base_damages = 0.0;
-        memo.treble_damages = 0.0;
-        memo.per_claim_penalty = 13946.0;
-        memo.total_exposure = 0.0;
-        memo.overall_strength = "Moderate";
-        memo.gap_analysis = [];
-        memo.case_summary = "";
+        # Compute overall_strength from FCA scores
+        total_score = 0.0;
+        count = 0;
+        for f in [root -->][?:FalsityNode] {
+            total_score = total_score + f.strength_score;
+            count = count + 1;
+        }
+        for s in [root -->][?:ScientorNode] {
+            total_score = total_score + s.strength_score;
+            count = count + 1;
+        }
+        for m in [root -->][?:MaterialityNode] {
+            total_score = total_score + m.strength_score;
+            count = count + 1;
+        }
+        for c in [root -->][?:CausationNode] {
+            total_score = total_score + c.strength_score;
+            count = count + 1;
+        }
+        overall = total_score / count if count > 0 else 0.0;
 
-        if "defendant" in damage_data {
-            memo.defendant = damage_data["defendant"];
-        }
-        if "total_false_claims" in damage_data {
-            memo.total_false_claims = damage_data["total_false_claims"];
-        }
-        if "base_damages" in damage_data {
-            memo.base_damages = damage_data["base_damages"];
-        }
-        if "treble_damages" in damage_data {
-            memo.treble_damages = damage_data["treble_damages"];
-        }
-        if "total_min_exposure" in damage_data {
-            memo.total_exposure = damage_data["total_min_exposure"];
-        }
-        if "case_summary" in damage_data {
-            memo.case_summary = damage_data["case_summary"];
-        }
+        memo = CaseMemoNode();
+        memo.defendant          = damage_data.get("defendant", "Unknown");
+        memo.total_false_claims = damage_data.get("total_false_claims", 0);
+        memo.base_damages       = float(damage_data.get("base_damages", 0.0));
+        memo.treble_damages     = float(damage_data.get("treble_damages", 0.0));
+        memo.per_claim_penalty  = 13946.0;
+        memo.total_exposure     = float(damage_data.get("total_max_exposure", 0.0));
+        memo.overall_strength   = overall;
+        memo.gap_analysis       = [];
+        memo.case_summary       = damage_data.get("case_summary", "");
 
         root ++> memo;
 
@@ -116,5 +122,6 @@ node DamageEstimatorAgent {
         print("Base damages: $" + str(memo.base_damages));
         print("Treble damages: $" + str(memo.treble_damages));
         print("Total exposure: $" + str(memo.total_exposure));
+        print("Overall strength: " + str(memo.overall_strength));
     }
 }

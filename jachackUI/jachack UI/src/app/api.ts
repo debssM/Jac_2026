@@ -1,12 +1,7 @@
-const TOKEN = 'I3nUcKqg-qHIXnGN41GyhM0ELvx8sAsdsSgtPY67OcU';
-
 async function jacPost(walker: string, body: object = {}) {
   const res = await fetch(`/walker/${walker}`, {
     method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'Authorization': `Bearer ${TOKEN}`,
-    },
+    headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(body),
   });
 
@@ -15,7 +10,6 @@ async function jacPost(walker: string, body: object = {}) {
   }
 
   const data = await res.json();
-  // Jac server wraps results in { reports: [...] }
   return data.reports ?? [];
 }
 

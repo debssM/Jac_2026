@@ -12,7 +12,7 @@ export function Header() {
   const navigationMap: Record<string, string> = {
     '/upload': '/',
     '/analyze': '/upload',
-    '/results': '/analyze',
+    '/results': '/upload',
     '/heatmap': '/results',
     '/gaps': '/results',
     '/memo': '/gaps',

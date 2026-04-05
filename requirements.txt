@@ -2,3 +2,7 @@ jaclang
 byllm
 pandas
 reportlab
+python-dotenv
+fastapi
+uvicorn[standard]
+anthropic
